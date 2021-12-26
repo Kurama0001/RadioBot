@@ -1,0 +1,6 @@
+{
+  "LANG1": "Please indicate a new language.",
+  "LANG2": "The language {lang} is already the current language.",
+  "SETLANG": "The server language is configured to {lang}.",
+  "ERROR": "An error has occurred."
+}

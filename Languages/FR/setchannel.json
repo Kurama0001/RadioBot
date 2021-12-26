@@ -1,0 +1,7 @@
+{
+  "CHANNEL": "Veuillez indiquer un salon pour installer votre radio.",
+  "CHANNEL2": "La salon indiquer n'est pas de type **Audio**",
+  "CHANNEL3": "La radio est déjà configurée sur le salon {channel}.",
+  "SAVED": "Le radio est installée sur le salon {channel}.",
+  "ERROR": "Une erreur est survenue."
+}

@@ -1,0 +1,7 @@
+{
+  "CHANNEL": "Please indicate a living room to install your radio.",
+  "CHANNEL2": "The living room indicate is not of type **Voice**",
+  "CHANNEL3": "The radio is already configured on the living room {channel}.",
+  "SAVED": "The radio is installed in the living room {channel}.",
+  "ERROR": "An error has occurred."
+}

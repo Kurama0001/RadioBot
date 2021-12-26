@@ -1,0 +1,7 @@
+{
+  "PREFIX1": "Veuillez indiquer un nouveau préfixe.",
+  "PREFIX2": "Veuillez indiquer un nouveau préfixe inférieur à 3 caractères.",
+  "PREFIX3": "Le préfixe **{prefix}** est le préfixe actuel.",
+  "SAVED": "Le préfixe a été modifié, nouveau préfix : **{prefix}**",
+  "ERROR": "Une erreur est survenue."
+}

@@ -1,0 +1,6 @@
+{
+  "VOLUME1": "Veuillez indiquer un nouveau volume entre **1 & 100**.",
+  "NOCOLLECTION": "Impossible de modifier le volume.",
+  "SAVED": "Le volume est maintenant modifié. **{volume}/100**",
+  "ERROR": "Une erreur est survenue."
+}

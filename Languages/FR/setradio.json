@@ -1,0 +1,7 @@
+{
+  "NORADIO": "Veuillez indiquer une radio à utiliser.",
+  "NORADIO2": "La radio {radio} n'existe pas, veuillez faire la commande {prefix}radio afin d'avoir toutes les radios.",
+  "ISRADIO": "La radio **{radio}** est la radio actuelle.",
+  "SAVED": "La radio a été modifiée, nouvelle radio : {radio}.",
+  "ERROR": "Une erreur est survenue."
+}

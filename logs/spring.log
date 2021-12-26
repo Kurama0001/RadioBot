@@ -1,0 +1,537 @@
+2021-12-26 18:29:38.287  INFO 14064 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        f7f0322875ef20810156f10645a5b9617cd7891d-SNAPSHOT
+	Build:          1263
+	Build time:     07.11.2021 12:24:52 UTC
+	Branch          master
+	Commit:         f7f0322
+	Commit time:    07.11.2021 12:20:58 UTC
+	JVM:            16.0.2
+	Lavaplayer      1.3.96-original
+
+2021-12-26 18:29:38.380  INFO 14064 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.8.RELEASE)
+
+
+2021-12-26 18:29:38.537  INFO 14064 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-5J13GA3 with PID 14064 (C:\Users\noctu\Desktop\LoFi Bot\Lavalink.jar started by noctu in C:\Users\noctu\Desktop\LoFi Bot)
+2021-12-26 18:29:38.538  INFO 14064 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-12-26 18:29:38.671  WARN 14064 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-12-26 18:29:40.816  WARN 14064 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-12-26 18:29:40.848  INFO 14064 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-12-26 18:29:40.849  INFO 14064 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2216 ms
+2021-12-26 18:29:41.295  WARN 14064 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-12-26 18:29:41.741  INFO 14064 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-12-26 18:29:42.019  INFO 14064 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-12-26 18:29:42.024  WARN 14064 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-12-26 18:29:42.434  INFO 14064 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-26 18:29:42.866  INFO 14064 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-12-26 18:29:42.887  INFO 14064 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-12-26 18:29:42.988  INFO 14064 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2635 (http) with context path ''
+2021-12-26 18:29:43.002  INFO 14064 --- [main] lavalink.server.Launcher                 : Started Launcher in 5.402 seconds (JVM running for 6.073)
+2021-12-26 18:29:43.023  INFO 14064 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2021-12-26 18:48:19.874  INFO 14064 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 18:48:19.874  INFO 14064 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-26 18:48:19.882  INFO 14064 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-12-26 18:48:19.905  INFO 14064 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:49944
+2021-12-26 18:48:19.996  INFO 14064 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 18:48:20.001  WARN 14064 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 18:48:30.736  INFO 14064 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=5qap5aO4i9A"
+2021-12-26 18:48:31.243  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"92fa438a3ec0d6a1c8d78464998830f9","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"7acaff9bdb783ae4","guild_id":"733516165539692617","endpoint":"rotterdam7412.discord.media:443"}}
+2021-12-26 18:48:32.064  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track lofi hip hop radio - beats to relax/study to
+2021-12-26 18:48:32.081  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAjwIALGxvZmkgaGlwIGhvcCByYWRpbyAtIGJlYXRzIHRvIHJlbGF4L3N0dWR5IHRvAAlMb2ZpIEdpcmx//////////wALNXFhcDVhTzRpOUEBAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01cWFwNWFPNGk5QQAHeW91dHViZQAAAAAAAAAA","volume":100}
+2021-12-26 18:48:32.083  WARN 14064 --- [XNIO-1 I/O-2] lavalink.server.io.WebSocketHandlers     : The volume property in the play operation has been deprecatedand will be removed in v4. Please configure a filter instead. Note that the new filter takes a float value with 1.0 being 100%
+2021-12-26 18:48:32.265  INFO 14064 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$653/0x00000008012c5998@70d892ef
+2021-12-26 18:48:32.292  INFO 14064 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2021-12-26 18:48:32.293  INFO 14064 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2021-12-26 18:48:32.402  INFO 14064 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2021-12-26 18:48:47.353  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 18:48:47.370  INFO 14064 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://www.skyrock.fm/stream.php/tunein16_128mp3.mp3"
+2021-12-26 18:48:47.482  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:49944 -- CloseStatus[code=1006, reason=]
+2021-12-26 18:48:47.482  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 18:48:48.025  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track SKYROCK
+2021-12-26 18:49:20.888  INFO 14064 --- [XNIO-1 task-7] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:49961
+2021-12-26 18:49:20.892  INFO 14064 --- [XNIO-1 task-7] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 18:49:20.892  WARN 14064 --- [XNIO-1 task-7] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 18:49:25.874  INFO 14064 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://www.skyrock.fm/stream.php/tunein16_128mp3.mp3"
+2021-12-26 18:49:26.072  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"ac7dc73279b33bfce1b76b9f059d19b7","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"af27cef192508e17","guild_id":"733516165539692617","endpoint":"rotterdam7412.discord.media:443"}}
+2021-12-26 18:49:26.779  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track SKYROCK
+2021-12-26 18:49:26.787  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAA1gIAB1NLWVJPQ0sAB1NLWVJPQ0t//////////wBRaHR0cDovL2ljZWNhc3Quc2t5cm9jay5uZXQvcy9uYXRpb19tcDNfMTI4az90dnJfbmFtZT10dW5laW4xNiZ0dnJfc2VjdGlvbjE9MTI4bXAzAQEAUWh0dHA6Ly9pY2VjYXN0LnNreXJvY2submV0L3MvbmF0aW9fbXAzXzEyOGs/dHZyX25hbWU9dHVuZWluMTYmdHZyX3NlY3Rpb24xPTEyOG1wMwAEaHR0cAADbXAzAAAAAAAAAAA=","volume":100}
+2021-12-26 18:49:51.501  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:49961 -- CloseStatus[code=1006, reason=]
+2021-12-26 18:49:51.501  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-12-26 18:49:55.968  INFO 14064 --- [XNIO-1 task-10] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:49973
+2021-12-26 18:49:55.973  INFO 14064 --- [XNIO-1 task-10] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 18:49:55.974  WARN 14064 --- [XNIO-1 task-10] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 18:50:01.225  INFO 14064 --- [XNIO-1 task-11] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://streaming.radio.funradio.fr/fun-1-44-128"
+2021-12-26 18:50:01.441  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"743ba73bd074de30bc4d82993e56e2d3","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"af27cef192508e17","guild_id":"733516165539692617","endpoint":"rotterdam7412.discord.media:443"}}
+2021-12-26 18:50:02.405  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Unspecified description
+2021-12-26 18:50:02.413  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAiQIAF1Vuc3BlY2lmaWVkIGRlc2NyaXB0aW9uAAB//////////wAmaHR0cDovL3N0cmVhbWVyLTA0LnJ0bC5mci9mdW4tMS00NC0xMjgBAQAmaHR0cDovL3N0cmVhbWVyLTA0LnJ0bC5mci9mdW4tMS00NC0xMjgABGh0dHAAA21wMwAAAAAAAAAA","volume":100}
+2021-12-26 18:50:15.630  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 18:50:15.636  INFO 14064 --- [XNIO-1 task-13] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=5qap5aO4i9A"
+2021-12-26 18:50:15.722  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track lofi hip hop radio - beats to relax/study to
+2021-12-26 18:50:15.728  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAjwIALGxvZmkgaGlwIGhvcCByYWRpbyAtIGJlYXRzIHRvIHJlbGF4L3N0dWR5IHRvAAlMb2ZpIEdpcmx//////////wALNXFhcDVhTzRpOUEBAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01cWFwNWFPNGk5QQAHeW91dHViZQAAAAAAAAAA","volume":100}
+2021-12-26 18:50:15.768  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:49973 -- CloseStatus[code=1006, reason=]
+2021-12-26 18:50:15.768  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-12-26 18:55:00.379  INFO 14064 --- [XNIO-1 task-15] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50003
+2021-12-26 18:55:00.383  INFO 14064 --- [XNIO-1 task-15] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 18:55:00.384  WARN 14064 --- [XNIO-1 task-15] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 18:55:06.809  INFO 14064 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://streaming.radio.funradio.fr/fun-1-44-128"
+2021-12-26 18:55:07.493  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Unspecified description
+2021-12-26 18:55:07.508  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50003 -- CloseStatus[code=1006, reason=]
+2021-12-26 18:55:07.509  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 18:55:43.182  INFO 14064 --- [XNIO-1 task-18] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50016
+2021-12-26 18:55:43.186  INFO 14064 --- [XNIO-1 task-18] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 18:55:43.187  WARN 14064 --- [XNIO-1 task-18] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 18:56:01.693  INFO 14064 --- [XNIO-1 task-19] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=5qap5aO4i9A"
+2021-12-26 18:56:01.790  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track lofi hip hop radio - beats to relax/study to
+2021-12-26 18:56:01.798  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAjwIALGxvZmkgaGlwIGhvcCByYWRpbyAtIGJlYXRzIHRvIHJlbGF4L3N0dWR5IHRvAAlMb2ZpIEdpcmx//////////wALNXFhcDVhTzRpOUEBAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01cWFwNWFPNGk5QQAHeW91dHViZQAAAAAAAAAA","volume":100}
+2021-12-26 18:56:02.218  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"328acd1d70ea54d627435010921452ac","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"2fa6af6de21862b6","guild_id":"733516165539692617","endpoint":"rotterdam7412.discord.media:443"}}
+2021-12-26 18:56:21.912  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50016 -- CloseStatus[code=1006, reason=]
+2021-12-26 18:56:21.913  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-12-26 18:56:54.681  INFO 14064 --- [XNIO-1 task-21] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50032
+2021-12-26 18:56:54.685  INFO 14064 --- [XNIO-1 task-21] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 18:56:54.686  WARN 14064 --- [XNIO-1 task-21] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 18:57:43.269  INFO 14064 --- [XNIO-1 task-22] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://streaming.radio.funradio.fr/fun-1-44-128"
+2021-12-26 18:57:43.657  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"adca17f3e96a9946a090e5c15a9d7474","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"ab56aaa539c009c4","guild_id":"733516165539692617","endpoint":"rotterdam7412.discord.media:443"}}
+2021-12-26 18:57:44.458  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Unspecified description
+2021-12-26 18:57:44.467  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAiQIAF1Vuc3BlY2lmaWVkIGRlc2NyaXB0aW9uAAB//////////wAmaHR0cDovL3N0cmVhbWVyLTAxLnJ0bC5mci9mdW4tMS00NC0xMjgBAQAmaHR0cDovL3N0cmVhbWVyLTAxLnJ0bC5mci9mdW4tMS00NC0xMjgABGh0dHAAA21wMwAAAAAAAAAA","volume":100}
+2021-12-26 18:57:59.392  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50032 -- CloseStatus[code=1006, reason=]
+2021-12-26 18:57:59.394  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-12-26 19:00:49.033  INFO 14064 --- [XNIO-1 task-24] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50063
+2021-12-26 19:00:49.037  INFO 14064 --- [XNIO-1 task-24] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:00:49.039  WARN 14064 --- [XNIO-1 task-24] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:00:49.204  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50063 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:00:49.204  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:01:34.529  INFO 14064 --- [XNIO-1 task-25] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50077
+2021-12-26 19:01:34.532  INFO 14064 --- [XNIO-1 task-25] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:01:34.534  WARN 14064 --- [XNIO-1 task-25] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:01:34.690  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50077 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:01:34.691  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:02:03.256  INFO 14064 --- [XNIO-1 task-26] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50092
+2021-12-26 19:02:03.260  INFO 14064 --- [XNIO-1 task-26] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:02:03.261  WARN 14064 --- [XNIO-1 task-26] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:02:03.425  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50092 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:02:03.425  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:02:36.560  INFO 14064 --- [XNIO-1 task-27] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50108
+2021-12-26 19:02:36.564  INFO 14064 --- [XNIO-1 task-27] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:02:36.566  WARN 14064 --- [XNIO-1 task-27] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:02:36.720  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50108 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:02:36.721  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:03:50.528  INFO 14064 --- [XNIO-1 task-28] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50124
+2021-12-26 19:03:50.532  INFO 14064 --- [XNIO-1 task-28] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:03:50.532  WARN 14064 --- [XNIO-1 task-28] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:03:50.545  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50124 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:03:50.545  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:04:04.033  INFO 14064 --- [XNIO-1 task-29] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50131
+2021-12-26 19:04:04.037  INFO 14064 --- [XNIO-1 task-29] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:04:04.037  WARN 14064 --- [XNIO-1 task-29] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:04:04.224  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50131 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:04:04.224  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:04:36.001  INFO 14064 --- [XNIO-1 task-30] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50145
+2021-12-26 19:04:36.004  INFO 14064 --- [XNIO-1 task-30] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:04:36.005  WARN 14064 --- [XNIO-1 task-30] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:04:36.133  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50145 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:04:36.134  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:05:06.447  INFO 14064 --- [XNIO-1 task-31] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50162
+2021-12-26 19:05:06.450  INFO 14064 --- [XNIO-1 task-31] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:05:06.451  WARN 14064 --- [XNIO-1 task-31] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:05:06.605  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50162 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:05:06.607  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:38:32.170  INFO 14064 --- [XNIO-1 task-32] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:56174
+2021-12-26 19:38:32.173  INFO 14064 --- [XNIO-1 task-32] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:38:32.174  WARN 14064 --- [XNIO-1 task-32] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:38:32.448  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:56174 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:38:32.449  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:38:58.613  INFO 14064 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:56189
+2021-12-26 19:38:58.616  INFO 14064 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:38:58.617  WARN 14064 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:38:58.796  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:56189 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:38:58.797  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:39:54.548  INFO 14064 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60382
+2021-12-26 19:39:54.551  INFO 14064 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:39:54.552  WARN 14064 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:39:54.731  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60382 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:39:54.732  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:40:27.751  INFO 14064 --- [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60396
+2021-12-26 19:40:27.754  INFO 14064 --- [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:40:27.755  WARN 14064 --- [XNIO-1 task-3] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:40:27.948  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60396 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:40:27.948  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:40:45.095  INFO 14064 --- [XNIO-1 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60410
+2021-12-26 19:40:45.098  INFO 14064 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:40:45.102  WARN 14064 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:40:45.322  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60410 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:40:45.323  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:41:30.826  INFO 14064 --- [XNIO-1 task-5] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60427
+2021-12-26 19:41:30.829  INFO 14064 --- [XNIO-1 task-5] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:41:30.830  WARN 14064 --- [XNIO-1 task-5] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:41:30.991  INFO 14064 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://streaming.radio.funradio.fr/fun-1-44-128"
+2021-12-26 19:41:31.499  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"8be8612cafff7026df43f0da7bc7b7a5","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"e336b5cc187ee13d","guild_id":"733516165539692617","endpoint":"rotterdam7412.discord.media:443"}}
+2021-12-26 19:41:32.144  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Unspecified description
+2021-12-26 19:41:32.150  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAiQIAF1Vuc3BlY2lmaWVkIGRlc2NyaXB0aW9uAAB//////////wAmaHR0cDovL3N0cmVhbWVyLTAxLnJ0bC5mci9mdW4tMS00NC0xMjgBAQAmaHR0cDovL3N0cmVhbWVyLTAxLnJ0bC5mci9mdW4tMS00NC0xMjgABGh0dHAAA21wMwAAAAAAAAAA","volume":100}
+2021-12-26 19:41:35.951  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 19:41:35.955  INFO 14064 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://streaming.radio.funradio.fr/fun-1-44-128"
+2021-12-26 19:41:36.160  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"8be8612cafff7026df43f0da7bc7b7a5","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"b78e0fffae77edad","guild_id":"733516165539692617","endpoint":"rotterdam7412.discord.media:443"}}
+2021-12-26 19:41:37.122  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Unspecified description
+2021-12-26 19:41:37.126  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAiQIAF1Vuc3BlY2lmaWVkIGRlc2NyaXB0aW9uAAB//////////wAmaHR0cDovL3N0cmVhbWVyLTA0LnJ0bC5mci9mdW4tMS00NC0xMjgBAQAmaHR0cDovL3N0cmVhbWVyLTA0LnJ0bC5mci9mdW4tMS00NC0xMjgABGh0dHAAA21wMwAAAAAAAAAA","volume":100}
+2021-12-26 19:41:40.926  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 19:41:40.931  INFO 14064 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://streaming.radio.funradio.fr/fun-1-44-128"
+2021-12-26 19:41:41.152  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"8be8612cafff7026df43f0da7bc7b7a5","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"2ff2c61a7412ccc3","guild_id":"733516165539692617","endpoint":"rotterdam7412.discord.media:443"}}
+2021-12-26 19:41:41.933  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Unspecified description
+2021-12-26 19:41:41.938  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAiQIAF1Vuc3BlY2lmaWVkIGRlc2NyaXB0aW9uAAB//////////wAmaHR0cDovL3N0cmVhbWVyLTA0LnJ0bC5mci9mdW4tMS00NC0xMjgBAQAmaHR0cDovL3N0cmVhbWVyLTA0LnJ0bC5mci9mdW4tMS00NC0xMjgABGh0dHAAA21wMwAAAAAAAAAA","volume":100}
+2021-12-26 19:41:47.160  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60427 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:41:47.161  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-12-26 19:41:57.573  INFO 14064 --- [XNIO-1 task-12] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60456
+2021-12-26 19:41:57.576  INFO 14064 --- [XNIO-1 task-12] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:41:57.576  WARN 14064 --- [XNIO-1 task-12] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:41:57.782  INFO 14064 --- [XNIO-1 task-13] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://streaming.radio.funradio.fr/fun-1-44-128"
+2021-12-26 19:41:58.053  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"eaad68d973edf4608ea0bb0bd00b95db","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"57df4b58ed537de5","guild_id":"733516165539692617","endpoint":"rotterdam7412.discord.media:443"}}
+2021-12-26 19:41:58.720  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Unspecified description
+2021-12-26 19:41:58.725  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAiQIAF1Vuc3BlY2lmaWVkIGRlc2NyaXB0aW9uAAB//////////wAmaHR0cDovL3N0cmVhbWVyLTA0LnJ0bC5mci9mdW4tMS00NC0xMjgBAQAmaHR0cDovL3N0cmVhbWVyLTA0LnJ0bC5mci9mdW4tMS00NC0xMjgABGh0dHAAA21wMwAAAAAAAAAA","volume":100}
+2021-12-26 19:42:18.690  INFO 14064 --- [XNIO-1 task-15] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=5qap5aO4i9A"
+2021-12-26 19:42:18.810  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track lofi hip hop radio - beats to relax/study to
+2021-12-26 19:42:18.815  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"733516165539692617"}
+2021-12-26 19:42:18.821  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAjwIALGxvZmkgaGlwIGhvcCByYWRpbyAtIGJlYXRzIHRvIHJlbGF4L3N0dWR5IHRvAAlMb2ZpIEdpcmx//////////wALNXFhcDVhTzRpOUEBAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01cWFwNWFPNGk5QQAHeW91dHViZQAAAAAAAAAA","volume":100}
+2021-12-26 19:42:24.702  INFO 14064 --- [XNIO-1 task-17] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://www.skyrock.fm/stream.php/tunein16_128mp3.mp3"
+2021-12-26 19:42:25.457  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track SKYROCK
+2021-12-26 19:42:25.461  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"733516165539692617"}
+2021-12-26 19:42:25.464  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAA1gIAB1NLWVJPQ0sAB1NLWVJPQ0t//////////wBRaHR0cDovL2ljZWNhc3Quc2t5cm9jay5uZXQvcy9uYXRpb19tcDNfMTI4az90dnJfbmFtZT10dW5laW4xNiZ0dnJfc2VjdGlvbjE9MTI4bXAzAQEAUWh0dHA6Ly9pY2VjYXN0LnNreXJvY2submV0L3MvbmF0aW9fbXAzXzEyOGs/dHZyX25hbWU9dHVuZWluMTYmdHZyX3NlY3Rpb24xPTEyOG1wMwAEaHR0cAADbXAzAAAAAAAAAAA=","volume":100}
+2021-12-26 19:42:50.144  INFO 14064 --- [XNIO-1 task-19] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 19:42:50.944  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 19:42:50.948  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"733516165539692617"}
+2021-12-26 19:42:50.950  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 19:47:41.975  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60456 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:47:41.977  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-12-26 19:47:46.096  INFO 14064 --- [XNIO-1 task-21] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57135
+2021-12-26 19:47:46.100  INFO 14064 --- [XNIO-1 task-21] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:47:46.101  WARN 14064 --- [XNIO-1 task-21] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:47:46.306  INFO 14064 --- [XNIO-1 task-22] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 19:47:46.813  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 19:47:46.820  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 19:47:46.822  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"99a5545b049c0f081c89ca2516bde323","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"57df4b58ed537de5","guild_id":"733516165539692617","endpoint":"rotterdam7412.discord.media:443"}}
+2021-12-26 19:47:55.679  INFO 14064 --- [XNIO-1 task-24] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 19:47:56.386  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 19:50:42.323  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57135 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:50:42.324  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-12-26 19:50:46.486  INFO 14064 --- [XNIO-1 task-26] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57174
+2021-12-26 19:50:46.490  INFO 14064 --- [XNIO-1 task-26] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:50:46.490  WARN 14064 --- [XNIO-1 task-26] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:50:46.678  INFO 14064 --- [XNIO-1 task-27] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 19:50:46.882  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"01d865bbfbe18208a1e3b90a47aac390","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"57df4b58ed537de5","guild_id":"733516165539692617","endpoint":"rotterdam7241.discord.media:443"}}
+2021-12-26 19:50:47.371  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 19:50:47.377  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 19:50:58.841  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 19:50:58.848  INFO 14064 --- [XNIO-1 task-29] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 19:50:58.959  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57174 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:50:58.960  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:50:59.617  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 19:51:44.833  INFO 14064 --- [XNIO-1 task-32] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57194
+2021-12-26 19:51:44.836  INFO 14064 --- [XNIO-1 task-32] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:51:44.837  WARN 14064 --- [XNIO-1 task-32] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:51:44.998  INFO 14064 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 19:51:45.194  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"3d32dc39b4a09c39c07e1165a3d575ee","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"efd6cf153e7b6eb4","guild_id":"733516165539692617","endpoint":"rotterdam7412.discord.media:443"}}
+2021-12-26 19:51:45.778  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 19:51:45.784  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 19:51:51.939  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 19:51:51.976  INFO 14064 --- [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 19:51:52.061  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 19:51:52.065  INFO 14064 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 19:51:52.188  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57194 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:51:52.190  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:51:52.424  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 19:51:53.058  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 19:54:12.315  INFO 14064 --- [XNIO-1 task-9] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:55193
+2021-12-26 19:54:12.318  INFO 14064 --- [XNIO-1 task-9] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 19:54:12.319  WARN 14064 --- [XNIO-1 task-9] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 19:54:12.495  INFO 14064 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 19:54:12.697  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"31ac7932642a26d63cb612afbeefb618","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"a3676a64e586b03c","guild_id":"733516165539692617","endpoint":"rotterdam7479.discord.media:443"}}
+2021-12-26 19:54:13.133  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 19:54:13.139  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 19:54:20.376  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 19:54:20.381  INFO 14064 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 19:54:20.492  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:55193 -- CloseStatus[code=1006, reason=]
+2021-12-26 19:54:20.493  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 19:54:21.079  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:02:17.983  INFO 14064 --- [XNIO-1 task-15] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:54605
+2021-12-26 20:02:17.987  INFO 14064 --- [XNIO-1 task-15] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:02:17.990  WARN 14064 --- [XNIO-1 task-15] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:02:18.153  INFO 14064 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:02:18.660  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"3abff5552e1f5beeb3f2ac0cae4c39f7","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"e68a9263fb025d29","guild_id":"733516165539692617","endpoint":"rotterdam9112.discord.media:443"}}
+2021-12-26 20:02:18.808  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:02:18.813  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 20:03:07.332  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:54605 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:03:07.333  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-12-26 20:03:11.538  INFO 14064 --- [XNIO-1 task-18] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:63670
+2021-12-26 20:03:11.542  INFO 14064 --- [XNIO-1 task-18] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:03:11.543  WARN 14064 --- [XNIO-1 task-18] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:03:11.708  INFO 14064 --- [XNIO-1 task-19] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:03:11.901  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"23cd043c165dd885bc80e1e1f2ebc9b0","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"e68a9263fb025d29","guild_id":"733516165539692617","endpoint":"rotterdam8941.discord.media:443"}}
+2021-12-26 20:03:12.284  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:03:12.292  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 20:03:17.421  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 20:03:17.537  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 20:03:17.542  INFO 14064 --- [XNIO-1 task-21] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:03:17.633  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"23cd043c165dd885bc80e1e1f2ebc9b0","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"3d64788b7c84aca9","guild_id":"733516165539692617","endpoint":"rotterdam2005.discord.media:443"}}
+2021-12-26 20:03:17.675  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:63670 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:03:17.676  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 20:03:18.070  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:06:38.841  INFO 14064 --- [XNIO-1 task-24] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:51130
+2021-12-26 20:06:38.844  INFO 14064 --- [XNIO-1 task-24] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:06:38.845  WARN 14064 --- [XNIO-1 task-24] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:06:39.002  INFO 14064 --- [XNIO-1 task-25] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:06:39.191  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"68bf1828c9cb74df575c5f2b685a61ce","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"c2333bc5ee094514","guild_id":"733516165539692617","endpoint":"rotterdam2005.discord.media:443"}}
+2021-12-26 20:06:39.778  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:06:39.784  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 20:06:44.465  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 20:06:44.489  INFO 14064 --- [XNIO-1 task-27] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:06:44.582  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 20:06:44.586  INFO 14064 --- [XNIO-1 task-28] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:06:44.736  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:51130 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:06:44.737  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 20:06:45.001  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:06:45.761  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:08:00.785  INFO 14064 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:52157
+2021-12-26 20:08:00.788  INFO 14064 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:08:00.789  WARN 14064 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:08:00.964  INFO 14064 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:08:01.483  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"989013f633833e858edd5ce250d77926","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"0371c9c437fd0d69","guild_id":"733516165539692617","endpoint":"rotterdam3778.discord.media:443"}}
+2021-12-26 20:08:01.729  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:08:01.735  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 20:08:06.487  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 20:08:06.492  INFO 14064 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:08:06.614  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:52157 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:08:06.616  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 20:08:07.249  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:09:03.316  INFO 14064 --- [XNIO-1 task-7] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:65360
+2021-12-26 20:09:03.320  INFO 14064 --- [XNIO-1 task-7] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:09:03.321  WARN 14064 --- [XNIO-1 task-7] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:09:03.487  INFO 14064 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:09:03.675  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"dadd9c5b70119e9ce77591ac30b2c571","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"54042f308868d997","guild_id":"733516165539692617","endpoint":"rotterdam7304.discord.media:443"}}
+2021-12-26 20:09:04.131  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:09:04.136  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 20:09:06.292  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 20:09:06.296  INFO 14064 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:09:06.460  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:65360 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:09:06.460  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 20:09:07.041  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:10:20.407  INFO 14064 --- [XNIO-1 task-13] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:65378
+2021-12-26 20:10:20.411  INFO 14064 --- [XNIO-1 task-13] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:10:20.412  WARN 14064 --- [XNIO-1 task-13] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:10:20.559  INFO 14064 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:10:21.098  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"36c0c8bf9b4f5e22a5ccb094859f7fd3","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"c16f4002e05af6fa","guild_id":"733516165539692617","endpoint":"rotterdam5295.discord.media:443"}}
+2021-12-26 20:10:21.191  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:10:21.196  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 20:10:31.250  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 20:10:31.257  INFO 14064 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:10:31.376  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"c16f4002e05af6fa","guild_id":"733516165539692617","endpoint":"rotterdam5295.discord.media:443"},"sessionId":"36c0c8bf9b4f5e22a5ccb094859f7fd3"}
+2021-12-26 20:10:31.460  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:65378 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:10:31.460  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 20:10:31.856  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:11:03.050  INFO 14064 --- [XNIO-1 task-19] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:62302
+2021-12-26 20:11:03.053  INFO 14064 --- [XNIO-1 task-19] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:11:03.053  WARN 14064 --- [XNIO-1 task-19] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:11:03.200  INFO 14064 --- [XNIO-1 task-20] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:11:03.403  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"c970a44335f0718eb9a00024592f1044","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"a490acb9fa462d40","guild_id":"733516165539692617","endpoint":"rotterdam6542.discord.media:443"}}
+2021-12-26 20:11:04.007  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:11:04.013  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 20:11:06.676  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 20:11:06.681  INFO 14064 --- [XNIO-1 task-22] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:11:06.801  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:62302 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:11:06.801  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 20:11:07.311  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:11:21.699  INFO 14064 --- [XNIO-1 task-25] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60603
+2021-12-26 20:11:21.705  INFO 14064 --- [XNIO-1 task-25] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:11:21.707  WARN 14064 --- [XNIO-1 task-25] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:11:21.889  INFO 14064 --- [XNIO-1 task-26] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:11:22.091  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"efcc70fa924abb3b3862f3be539a59c3","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"41aba6e390972957","guild_id":"733516165539692617","endpoint":"rotterdam5677.discord.media:443"}}
+2021-12-26 20:11:22.647  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:11:22.652  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 20:11:27.991  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"733516165539692617"}
+2021-12-26 20:11:27.996  INFO 14064 --- [XNIO-1 task-28] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:11:28.106  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60603 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:11:28.107  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 20:11:28.735  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:16:41.630  INFO 14064 --- [XNIO-1 task-31] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58249
+2021-12-26 20:16:41.633  INFO 14064 --- [XNIO-1 task-31] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:16:41.634  WARN 14064 --- [XNIO-1 task-31] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:16:41.817  INFO 14064 --- [XNIO-1 task-32] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:16:42.335  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"d32c15377316eab0e56a2ee3b7c27113","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"ac66669a9bb1cab2","guild_id":"733516165539692617","endpoint":"rotterdam5927.discord.media:443"}}
+2021-12-26 20:16:42.573  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:16:42.578  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 20:17:44.137  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58249 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:17:44.138  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-12-26 20:17:48.420  INFO 14064 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58273
+2021-12-26 20:17:48.423  INFO 14064 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:17:48.424  WARN 14064 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:17:48.588  INFO 14064 --- [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:17:49.089  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"1788aa43f0fb8743ff244729cda5d4cb","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"ac66669a9bb1cab2","guild_id":"733516165539692617","endpoint":"rotterdam5927.discord.media:443"}}
+2021-12-26 20:17:49.337  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:17:49.342  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 20:18:12.530  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58273 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:18:12.530  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-12-26 20:18:27.887  INFO 14064 --- [XNIO-1 task-5] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58292
+2021-12-26 20:18:27.891  INFO 14064 --- [XNIO-1 task-5] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:18:27.892  WARN 14064 --- [XNIO-1 task-5] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:18:28.044  INFO 14064 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:18:28.563  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"6c48bc2a89218526661a6a47e807418a","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"ac66669a9bb1cab2","guild_id":"733516165539692617","endpoint":"rotterdam2771.discord.media:443"}}
+2021-12-26 20:18:28.637  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:18:28.643  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 20:18:31.415  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58292 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:18:31.416  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-12-26 20:18:46.654  INFO 14064 --- [XNIO-1 task-8] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58308
+2021-12-26 20:18:46.657  INFO 14064 --- [XNIO-1 task-8] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:18:46.658  WARN 14064 --- [XNIO-1 task-8] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:19:14.031  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58308 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:19:14.032  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 20:19:24.273  INFO 14064 --- [XNIO-1 task-9] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58320
+2021-12-26 20:19:24.276  INFO 14064 --- [XNIO-1 task-9] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:19:24.277  WARN 14064 --- [XNIO-1 task-9] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:20:43.783  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58320 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:20:43.785  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 20:20:48.536  INFO 14064 --- [XNIO-1 task-10] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58337
+2021-12-26 20:20:48.539  INFO 14064 --- [XNIO-1 task-10] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:20:48.540  WARN 14064 --- [XNIO-1 task-10] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:20:48.725  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58337 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:20:48.726  INFO 14064 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-26 20:21:17.691  INFO 14064 --- [XNIO-1 task-11] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58351
+2021-12-26 20:21:17.694  INFO 14064 --- [XNIO-1 task-11] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:21:17.695  WARN 14064 --- [XNIO-1 task-11] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:21:30.338  INFO 14064 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:21:30.860  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"7018fe7618b8533a1eb1e56ecf0debfb","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"8c40247aec234853","guild_id":"733516165539692617","endpoint":"rotterdam5927.discord.media:443"}}
+2021-12-26 20:21:31.067  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:21:31.074  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 20:21:40.491  INFO 14064 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=5qap5aO4i9A"
+2021-12-26 20:21:40.595  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track lofi hip hop radio - beats to relax/study to
+2021-12-26 20:21:40.599  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"792161643814846468","track":"QAAAjwIALGxvZmkgaGlwIGhvcCByYWRpbyAtIGJlYXRzIHRvIHJlbGF4L3N0dWR5IHRvAAlMb2ZpIEdpcmx//////////wALNXFhcDVhTzRpOUEBAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01cWFwNWFPNGk5QQAHeW91dHViZQAAAAAAAAAA","volume":100}
+2021-12-26 20:21:41.014  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"7018fe7618b8533a1eb1e56ecf0debfb","op":"voiceUpdate","guildId":"792161643814846468","event":{"token":"1a67a24370bee4fa","guild_id":"792161643814846468","endpoint":"rotterdam9782.discord.media:443"}}
+2021-12-26 20:21:46.158  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58351 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:21:46.159  INFO 14064 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 2 playing players.
+2021-12-26 20:22:15.106  INFO 14064 --- [XNIO-1 task-16] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57964
+2021-12-26 20:22:15.110  INFO 14064 --- [XNIO-1 task-16] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:22:15.110  WARN 14064 --- [XNIO-1 task-16] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:22:15.285  INFO 14064 --- [XNIO-1 task-17] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:22:15.286  INFO 14064 --- [XNIO-1 task-18] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=5qap5aO4i9A"
+2021-12-26 20:22:15.477  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"763183486e7cb70b05af8afdb7b40e2a","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"76e64e6c026365dd","guild_id":"733516165539692617","endpoint":"rotterdam5927.discord.media:443"}}
+2021-12-26 20:22:15.792  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"763183486e7cb70b05af8afdb7b40e2a","op":"voiceUpdate","guildId":"792161643814846468","event":{"token":"9870f758105abbd2","guild_id":"792161643814846468","endpoint":"rotterdam4514.discord.media:443"}}
+2021-12-26 20:22:15.896  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:22:15.903  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 20:22:15.980  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track lofi hip hop radio - beats to relax/study to
+2021-12-26 20:22:15.984  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"792161643814846468","track":"QAAAjwIALGxvZmkgaGlwIGhvcCByYWRpbyAtIGJlYXRzIHRvIHJlbGF4L3N0dWR5IHRvAAlMb2ZpIEdpcmx//////////wALNXFhcDVhTzRpOUEBAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01cWFwNWFPNGk5QQAHeW91dHViZQAAAAAAAAAA","volume":100}
+2021-12-26 20:22:37.673  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"792161643814846468"}
+2021-12-26 20:22:37.683  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57964 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:22:37.684  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-12-26 20:22:56.335  INFO 14064 --- [XNIO-1 task-21] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58500
+2021-12-26 20:22:56.338  INFO 14064 --- [XNIO-1 task-21] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:22:56.339  WARN 14064 --- [XNIO-1 task-21] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:22:56.505  INFO 14064 --- [XNIO-1 task-22] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:22:56.780  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"ac9947611a6b3ca8c66a14e5a52570d7","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"76e64e6c026365dd","guild_id":"733516165539692617","endpoint":"rotterdam5927.discord.media:443"}}
+2021-12-26 20:22:57.081  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:22:57.091  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 20:24:43.037  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58500 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:24:43.038  INFO 14064 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-12-26 20:50:05.567  INFO 14064 --- [XNIO-1 task-24] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:56618
+2021-12-26 20:50:05.570  INFO 14064 --- [XNIO-1 task-24] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:50:05.571  WARN 14064 --- [XNIO-1 task-24] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:50:06.194  INFO 14064 --- [XNIO-1 task-25] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "http://185.52.127.132/fr/30001/mp3_128.mp3?origine=fluxradios"
+2021-12-26 20:50:06.690  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"8bbe0b724912135345c4d26cea608d2d","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"87d687378a96b8a1","guild_id":"733516165539692617","endpoint":"rotterdam5927.discord.media:443"}}
+2021-12-26 20:50:06.719  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 
+2021-12-26 20:50:06.724  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAqwIAAAALTlJKIFNBVCBNUDN//////////wA9aHR0cDovLzE4NS41Mi4xMjcuMTMyL2ZyLzMwMDAxL21wM18xMjgubXAzP29yaWdpbmU9Zmx1eHJhZGlvcwEBAD1odHRwOi8vMTg1LjUyLjEyNy4xMzIvZnIvMzAwMDEvbXAzXzEyOC5tcDM/b3JpZ2luZT1mbHV4cmFkaW9zAARodHRwAANtcDMAAAAAAAAAAA==","volume":100}
+2021-12-26 20:50:15.776  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"733516165539692617","volume":10}
+2021-12-26 20:50:35.926  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"733516165539692617","volume":1}
+2021-12-26 20:52:01.916  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"733516165539692617","volume":100}
+2021-12-26 20:52:09.476  INFO 14064 --- [XNIO-1 task-27] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=5qap5aO4i9A"
+2021-12-26 20:52:09.586  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track lofi hip hop radio - beats to relax/study to
+2021-12-26 20:52:09.590  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"733516165539692617"}
+2021-12-26 20:52:09.592  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAjwIALGxvZmkgaGlwIGhvcCByYWRpbyAtIGJlYXRzIHRvIHJlbGF4L3N0dWR5IHRvAAlMb2ZpIEdpcmx//////////wALNXFhcDVhTzRpOUEBAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01cWFwNWFPNGk5QQAHeW91dHViZQAAAAAAAAAA","volume":100}
+2021-12-26 20:58:57.085  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:56618 -- CloseStatus[code=1006, reason=]
+2021-12-26 20:58:57.086  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-12-26 20:59:02.712  INFO 14064 --- [XNIO-1 task-29] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:56334
+2021-12-26 20:59:02.715  INFO 14064 --- [XNIO-1 task-29] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 20:59:02.716  WARN 14064 --- [XNIO-1 task-29] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 20:59:09.382  INFO 14064 --- [XNIO-1 task-30] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=5qap5aO4i9A"
+2021-12-26 20:59:09.882  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"2cb817c8aff770be69c37bd00da9aec1","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"87d687378a96b8a1","guild_id":"733516165539692617","endpoint":"rotterdam5927.discord.media:443"}}
+2021-12-26 20:59:10.764  INFO 14064 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track lofi hip hop radio - beats to relax/study to
+2021-12-26 20:59:10.770  INFO 14064 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAjwIALGxvZmkgaGlwIGhvcCByYWRpbyAtIGJlYXRzIHRvIHJlbGF4L3N0dWR5IHRvAAlMb2ZpIEdpcmx//////////wALNXFhcDVhTzRpOUEBAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01cWFwNWFPNGk5QQAHeW91dHViZQAAAAAAAAAA","volume":100}
+2021-12-26 21:04:11.413  WARN 14064 --- [nioEventLoopGroup-2-1] lavalink.server.player.EventEmitter      : lofi hip hop radio - beats to relax/study to got stuck! Threshold surpassed: 10000
+2021-12-26 21:26:31.175  INFO 11588 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        f7f0322875ef20810156f10645a5b9617cd7891d-SNAPSHOT
+	Build:          1263
+	Build time:     07.11.2021 12:24:52 UTC
+	Branch          master
+	Commit:         f7f0322
+	Commit time:    07.11.2021 12:20:58 UTC
+	JVM:            16.0.2
+	Lavaplayer      1.3.96-original
+
+2021-12-26 21:26:31.260  INFO 11588 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.8.RELEASE)
+
+
+2021-12-26 21:26:31.412  INFO 11588 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-5J13GA3 with PID 11588 (C:\Users\noctu\Desktop\LoFi Bot\Lavalink.jar started by noctu in C:\Users\noctu\Desktop\LoFi Bot)
+2021-12-26 21:26:31.414  INFO 11588 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-12-26 21:26:31.544  WARN 11588 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-12-26 21:26:33.273  WARN 11588 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-12-26 21:26:33.304  INFO 11588 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-12-26 21:26:33.305  INFO 11588 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1822 ms
+2021-12-26 21:26:33.809  WARN 11588 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-12-26 21:26:34.230  INFO 11588 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-12-26 21:26:34.507  INFO 11588 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-12-26 21:26:34.507  WARN 11588 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-12-26 21:26:34.848  INFO 11588 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-26 21:26:35.417  INFO 11588 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-12-26 21:26:35.457  INFO 11588 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-12-26 21:26:35.554  INFO 11588 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2635 (http) with context path ''
+2021-12-26 21:26:35.560  INFO 11588 --- [main] lavalink.server.Launcher                 : Started Launcher in 5.069 seconds (JVM running for 5.643)
+2021-12-26 21:26:35.563  INFO 11588 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2021-12-26 21:26:54.841  INFO 11588 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 21:26:54.842  INFO 11588 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-26 21:26:54.852  INFO 11588 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-12-26 21:26:54.876  INFO 11588 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:54879
+2021-12-26 21:26:54.944  INFO 11588 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 21:26:54.944  WARN 11588 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 21:26:55.124  INFO 11588 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=5qap5aO4i9A"
+2021-12-26 21:26:55.577  INFO 11588 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"e861056d4d7939d4362ef9bd36ba569f","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"3e7bb884db2361bd","guild_id":"733516165539692617","endpoint":"rotterdam5927.discord.media:443"}}
+2021-12-26 21:26:56.766  INFO 11588 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track lofi hip hop radio - beats to relax/study to
+2021-12-26 21:26:56.792  INFO 11588 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAjwIALGxvZmkgaGlwIGhvcCByYWRpbyAtIGJlYXRzIHRvIHJlbGF4L3N0dWR5IHRvAAlMb2ZpIEdpcmx//////////wALNXFhcDVhTzRpOUEBAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01cWFwNWFPNGk5QQAHeW91dHViZQAAAAAAAAAA","volume":100}
+2021-12-26 21:26:56.795  WARN 11588 --- [XNIO-1 I/O-1] lavalink.server.io.WebSocketHandlers     : The volume property in the play operation has been deprecatedand will be removed in v4. Please configure a filter instead. Note that the new filter takes a float value with 1.0 being 100%
+2021-12-26 21:26:57.034  INFO 11588 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$650/0x00000008012d4218@612734d9
+2021-12-26 21:26:57.088  INFO 11588 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2021-12-26 21:26:57.091  INFO 11588 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2021-12-26 21:26:57.202  INFO 11588 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2021-12-26 21:30:40.966  INFO 11588 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:54879 -- CloseStatus[code=1006, reason=]
+2021-12-26 21:30:40.970  INFO 11588 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-12-26 21:30:46.110  INFO 11588 --- [XNIO-1 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:52390
+2021-12-26 21:30:46.115  INFO 11588 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-26 21:30:46.120  WARN 11588 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-26 21:30:46.390  INFO 11588 --- [XNIO-1 task-5] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=5qap5aO4i9A"
+2021-12-26 21:30:46.502  INFO 11588 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track lofi hip hop radio - beats to relax/study to
+2021-12-26 21:30:46.514  INFO 11588 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"733516165539692617","track":"QAAAjwIALGxvZmkgaGlwIGhvcCByYWRpbyAtIGJlYXRzIHRvIHJlbGF4L3N0dWR5IHRvAAlMb2ZpIEdpcmx//////////wALNXFhcDVhTzRpOUEBAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01cWFwNWFPNGk5QQAHeW91dHViZQAAAAAAAAAA","volume":100}
+2021-12-26 21:30:46.945  INFO 11588 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"cd1a1d778d45e552797f3d48e2bb7726","op":"voiceUpdate","guildId":"733516165539692617","event":{"token":"3e7bb884db2361bd","guild_id":"733516165539692617","endpoint":"rotterdam5927.discord.media:443"}}
+2021-12-26 21:33:04.928  INFO 11588 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:52390 -- CloseStatus[code=1006, reason=]
+2021-12-26 21:33:04.929  INFO 11588 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
