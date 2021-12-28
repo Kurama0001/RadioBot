@@ -2,7 +2,7 @@
 
 ## Condition :
 
-### Installer OpenJDL 16
+### Installer OpenJDK 16
 ### Installer Node.js (Dernière version)
 ### Installer Lavalink.jar (Application .jar)
 [Lavalink.jar](https://ci.fredboat.com/viewLog.html?buildId=lastSuccessful&buildTypeId=Lavalink_Build&tab=artifacts&guest=1)
