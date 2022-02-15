@@ -17,6 +17,6 @@ module.exports = {
 
     mongoose.connect(DBCONNECTION, mongOptions);
     mongoose.Promise = global.Promise;
-    mongoose.connection.on("connected", () => console.log(["MongoDB"], "📡 Connexion réussie")).catch(() => console.log(["MongoDB"], "🚀 Connexion interrompu"))
+    mongoose.connection.on("connected", () => console.log(["MongoDB"], "📡 Connexion réussie"))
   }
 }
